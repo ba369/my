@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .container{
+      display: flex;
+    }
+  
+      h2{
+        color: white;
+      }
+    
+
+    .logo{
+      width: 50%;
+      height: 100vh;
+      background-image: url(ng1.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    img {
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+    }
+    .box{
+      width:50%;
+      height: 100vh;
+      background-image: url(ng2.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+      float: right;
+      
+    }
+    a{
+      text-decoration: none;
+      color: white;
+    }
+    .view{
+      font-size: bold;
+      background-color: rgb(192, 120, 255);
+      color: white;
+      border: none;
+      border-radius: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 15px;
+      padding-right: 15px;
+      cursor: pointer;
+      transition: opacity 0.15s;
+    }
+    .view:hover{
+      opacity: 0.8;
+    }
+    .view:active{
+      opacity:0.4;
+    }
+    p{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     
+      font-size: xx-large;
+      font-weight: bolder;
+      color: rgb(0, 21, 89);
+      background-color: rgb(0, 66, 84);
+      border-radius: 20px;
+      border: 2px solid rebeccapurple;
+      padding-top: ;
+    }
+    span{
+      padding-left: 10px;
+    }
+    
+
+    /*@media  (max-width:700px){
+      .container{
+        flex-direction:column;
+        width: 100%;
+      }
+      .logo{
+        width: 100%;
+      }
+      .box{
+        width:100%;
+      }
+
+    }*/
+   
+  </style>
+
+</head>
+    <body>
+      <div>
+        
+        <div class="container">
+          
+          <div class="logo">
+            <img src="./BALAJI.png">
+  
+  
+          </div>
+          <div class="box">
+            <p><span>MY SQL</span> </p>
+            <h2>Eperiment 1</h2>
+            <button class="ex1 view">
+              <a href="http://localhost/php/ex1.php/">View</a>
+            </button><br>
+            <h2>Eperiment 2</h2>
+            <button class="ex2 view">
+              <a href="http://localhost/php/ex2.php/">View</a>
+            </button><br>
+            <h2>Eperiment 3</h2>
+            <button class="ex3 view">
+              <a href="">View</a>
+            </button><br>
+            <h2>Eperiment 4</h2>
+            <button class="ex4 view">
+              <a href="">View</a>
+            </button><br>  
+    
+          </div>
+        </div>
+
+      </div>
+      
+      
+    </body>
+</html>
